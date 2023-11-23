@@ -43,13 +43,18 @@ header{
 */
 
 main section:nth-child(1) img{
-    width: 20%;
     margin-bottom: 20px;
+    max-width: 30%;
 }
 
 main section:nth-child(1) h2, main section:nth-child(1) p{
     color:white;
 }
+
+main section:nth-child(2) h2{
+    color: black;
+}
+
 
 
 .flex-star{
@@ -67,7 +72,9 @@ main section:nth-child(1) h2, main section:nth-child(1) p{
     color: white;
 }
 
-
+section:nth-child(2) div .flex-star div i{
+    color: black;
+}
 /* 
 
     FOOTER
