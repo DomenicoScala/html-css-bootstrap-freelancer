@@ -98,6 +98,16 @@ footer .footer_bottom{
     color: white;
 }
 
+.footer_top div i{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 4px;
+}
+
+.footer_top div i:first-child{
+    padding: 10px 13px;
+}
 
 
 
