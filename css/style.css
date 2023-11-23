@@ -24,28 +24,6 @@ main section:nth-child(odd){
     background-color: #1ABC9C;
 }
 
- main section:nth-child(2), section:nth-child(3){
-    padding: 80px;
-}
-
-.container-mio{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.form_personale{
-    margin-bottom: 50px;
-}
-
-footer .footer_top{
-    background-color: #3A546D;
-}
-
-footer .footer_bottom{
-    background-color: #2C3E50;
-    color: white;
-    height: 50px;
-}
 
 
 /* 
@@ -55,41 +33,67 @@ footer .footer_bottom{
 */
 header{
     background-color: #2C3E50;
-    height: 80px;
 }
 
+
+/* 
+
+    MAIN
+
+*/
+
+main section:nth-child(1) img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+main section:nth-child(1) h2, main section:nth-child(1) p{
+    color:white;
+}
+
+
+.flex-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-star div hr{
+    width: 100px;
+}
+
+
+.flex-star div i{
+    color: white;
+}
+
+
+/* 
+
+    FOOTER
+
+*/
+
+footer .footer_top{
+    background-color: #3A546D;
+}
+
+footer .footer_bottom{
+    background-color: #2C3E50;
+    color: white;
+}
 
 
 
 
 /* 
 
-    DEBUG
+  \RESPONSIVE
 
 */
-.box1{
-    background-color: blue;
-    padding: 25px;
-    color: white;
-}
 
-.box2{
-    background-color: red;
-    padding: 25px;
-}
 
-.box3{
-    width: 100%;
-    height: 500px;
-}
 
-.TITOLOCOLONNE{
-    margin-bottom: 30px;
-}
 
-.card{
-    height: 300px;
-    width: 100%;
-    background-color: yellow;
-    margin-top: 20px;
-}
+
+
