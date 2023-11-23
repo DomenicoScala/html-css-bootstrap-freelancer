@@ -47,7 +47,10 @@ main section:nth-child(1) img{
     max-width: 30%;
 }
 
-main section:nth-child(1) h2, main section:nth-child(1) p{
+main section:nth-child(1) h2, 
+main section:nth-child(1) p,
+main section:nth-child(3) h2,
+main section:nth-child(3) p{
     color:white;
 }
 
@@ -55,7 +58,10 @@ main section:nth-child(2) h2{
     color: black;
 }
 
-
+button i{
+    color: white;
+    margin-right: 5px;
+}
 
 .flex-star{
     display: flex;
